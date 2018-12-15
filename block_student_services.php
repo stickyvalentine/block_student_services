@@ -10,7 +10,10 @@ class block_student_services extends block_base {
     }
  
     $this->content         =  new stdClass; 
-    $this->content->text   = '<p><strong>Writing Center</strong><br>555.4321<br><strong>Computer Lab</strong><br>555.1234</p>';
+    $this->content->text   = '<p><strong>Writing Center</strong><br>
+                              555.4321<br>
+                              <strong>Computer Lab</strong>
+                              <br>555.1234</p>';
     
     // $this->content->footer = 'Footer here...';
  
